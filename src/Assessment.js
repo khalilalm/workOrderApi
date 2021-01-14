@@ -1,13 +1,6 @@
 import React, {Component, useState} from "react";
 import "./Assessment.css";
 
-
-
-const [userData, setUserData] = useState({});
-
-  useEffect(() => {
-    getGitHubUserWithFetch();
-  }, []);
 class Assessment extends Component {
   
   
