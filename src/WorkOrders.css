@@ -1,0 +1,24 @@
+  .workOrders{
+    margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 200px;
+  row-gap: 25px;
+  }
+  .content-item {
+    padding: 20px;
+    border: 1px solid black;
+    height: 350px;
+    width: 350px;
+  }
+  .profile-details {
+    float: right;
+    padding: 10px;
+  }
+  .profile-details > p {
+    text-justify: left;
+  }
+  .profile-details > h2 {
+    text-justify: left;
+  }
